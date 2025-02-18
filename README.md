@@ -1,8 +1,16 @@
 # LaTeX-Jam
 
+<img src="logo.png" align="right" width=200 />
+
 A repository with different document templates in LaTeX.
 
-This is designed to work on GitHub codespaces to enable writing TeX files directly in the cloud.  See `.devcontainer` and `.vscode` for configurations.
+This is designed to work on [GitHub codespaces](https://github.com/features/codespaces) to enable writing TeX files directly in the cloud.  See `.devcontainer` and `.vscode` for configurations.
+
+### How To
+
+1. Clone repo
+2. Launch web editor (if online, press "." key)
+3. Select "Create New Codespace..." 
 
 # Structure
 
