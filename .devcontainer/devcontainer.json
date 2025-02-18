@@ -40,14 +40,14 @@
 					"*.run.xml" // Added Manually
 				],
 				// Edit the following property to change export directory
-				"latex-workshop.latex.outDir": "./pdf",
+				"latex-workshop.latex.outDir": "../pdf",
 				"latex-workshop.latex.autoClean.run": "onBuilt",
 				"latex-workshop.latex.build.forceRecipeUsage": false,
 				"latex-workshop.synctex.afterBuild.enabled": true,
 				"latex-workshop.view.pdf.viewer": "tab",
 				"latex-workshop.latex.clean.subfolder.enabled": true,
 				"latex-workshop.latex.magic.args": [
-					"-output-directory=pdf", // to change the output directory
+					"-output-directory=../pdf", // to change the output directory
 					"%DOC%"
 				],
 				// Remove / comment the next 3 lines to remove dark view for pdf
