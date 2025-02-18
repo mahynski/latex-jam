@@ -4,13 +4,20 @@
 
 A repository with different document templates in LaTeX.
 
-This is designed to work on [GitHub codespaces](https://github.com/features/codespaces) to enable writing TeX files directly in the cloud.  See `.devcontainer` and `.vscode` for configurations.
+This is designed to work on [GitHub codespaces](https://github.com/features/codespaces) to enable writing TeX files directly in the cloud without the need for a paid subscription, e.g., Overleaf.  See `.devcontainer` and `.vscode` for configurations.  With free add-ons like [Live Share](https://visualstudio.microsoft.com/services/live-share/) you can collaborate in real time.  Since this is a version controlled repo, all your changes can be tracked, forked, or rolled back as needed.
 
 ### How To
 
 1. Clone repo
 2. Launch web editor (if online, press "." key)
 3. Select "Create New Codespace..." 
+
+### Templates
+
+You can start from scratch or find lots of useful template on the internet. Here are a few suggestions to get started.
+
+* [Overleaf LaTeX templates](https://www.overleaf.com/latex/templates)
+* [LaTeX Templates: a part of creodocs](https://www.latextemplates.com/)
 
 # Structure
 
