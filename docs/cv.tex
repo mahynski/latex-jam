@@ -1,0 +1,137 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Long Professional Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.latextemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{../cls/res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+\usepackage{etaremune}
+\usepackage{palatino} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+\usepackage{graphicx}
+\usepackage{wrapfig}
+
+\newsectionwidth{0pt} % Stops section indenting
+
+\newenvironment{benumerate}[1]{
+    \let\oldItem\item
+    \def\item{\addtocounter{enumi}{-2}\oldItem}
+    \begin{enumerate}
+    \setcounter{enumi}{#1}
+    \addtocounter{enumi}{1}
+}{
+    \end{enumerate}
+}
+
+\usepackage[hidelinks]{hyperref}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND ADDRESS(ES) SECTION
+%----------------------------------------------------------------------------------------
+\name{\LARGE{John Doe}\\ \\} % Your name at the top
+
+% If you don't want one of the addresses, simply remove all the text in the first or second \address{} bracket
+
+\address{Title \\ Job Address \\ T: (123) 456-7890 \\ E: your.name@gmail.com \\ W: \href{https://www.your-homepage.com}{your-homepage.com}}
+
+\address{}
+
+\begin{wrapfigure}{R}{0.15\textwidth}
+	\centering
+	\vspace{20pt}
+	\includegraphics[scale=0.15]{../img/orcid_qrcode.png}
+	\vspace{-100pt}
+\end{wrapfigure}
+
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL BACKGROUND
+%----------------------------------------------------------------------------------------
+\hrulefill
+\vspace{-10pt}
+\section{\centerline{PROFESSIONAL BACKGROUND}} 
+\vspace{5pt} % Gap between title and text
+
+
+Job Title \hfill 2023 -- present \\
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\hrulefill
+\vspace{-10pt}
+\section{\centerline{EDUCATION}} 
+\vspace{5pt} % Gap between title and text
+
+Degree, Location \hfill 2015\\
+XYZ University
+
+%----------------------------------------------------------------------------------------
+%	HONORS SECTION
+%----------------------------------------------------------------------------------------
+\hrulefill
+\vspace{-10pt}
+\section{\centerline{SELECTED PROFESSIONAL AWARDS \& HONORS}} 
+\vspace{5pt} 
+
+
+%----------------------------------------------------------------------------------------
+%	AFFILIATIONS SECTION
+%----------------------------------------------------------------------------------------
+\hrulefill
+\vspace{-10pt}
+\section{\centerline{AFFILIATIONS}} 
+\vspace{5pt} 
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\hrulefill
+\vspace{-10pt}
+\section{\centerline{PUBLISHED WORKS}} 
+\vspace{5pt} 
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATIONS SECTION
+%----------------------------------------------------------------------------------------
+\hrulefill
+\vspace{-10pt}
+\section{\centerline{PRESENTATIONS}} 
+\vspace{5pt} 
+
+
+%----------------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\hrulefill
+\vspace{-10pt} 
+\section{\centerline{TEACHING AND PROFESSIONAL ENGAGEMENT}}
+\vspace{5pt} % Gap between title and text
+ 
+ 
+ 
+\end{resume} 
+\end{document}
