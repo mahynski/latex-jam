@@ -8,7 +8,7 @@ This is designed to work on [GitHub codespaces](https://github.com/features/code
 
 ### Quickstart
 
-1. Clone repo
+1. Fork repo
 2. Launch web editor (if online, press "." key)
 3. Select "Create New Codespace..." 
 
