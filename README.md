@@ -18,7 +18,7 @@ This code is intentionally lightweight so it is highly portable. It is easy to a
 
 ~~~bash
 $ cd path/to/other/repo
-$ git subtree add --prefix ./ https://github.com/mahynski/latex-jam.git main --squash
+$ git subtree add --prefix ./latex-jam https://github.com/mahynski/latex-jam.git main --squash
 $ git commit -m "added latex-jam"
 $ cd latex-jam; git remote rm origin # Disconnect local copy from parent as best practice
 ~~~
