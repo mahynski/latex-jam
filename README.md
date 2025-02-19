@@ -23,6 +23,12 @@ $ git commit -m "added latex-jam"
 $ cd latex-jam; git remote rm origin # Disconnect local copy from parent as best practice
 ~~~
 
+This is convenient for writing offline (not in a GitHub codespace).
+
+### As a Fork
+
+Alternatively, you can fork this repo and add the relevant images etc. for a specific project then begin editing in a codespace. This fork can be added as a aubtree to another project later, if desired. 
+
 ### Templates
 
 You can start from scratch or find lots of useful templates on the internet. Here are a few suggestions to get started.  Download one and place it in the `docs/` directory to get started.
