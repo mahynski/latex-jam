@@ -27,7 +27,9 @@ This is convenient for writing offline (not in a GitHub codespace).
 
 ### As a Fork
 
-Alternatively, you can fork this repo and add the relevant images etc. for a specific project then begin editing in a codespace. This fork can be added as a aubtree to another project later, if desired. 
+Alternatively, you can fork this repo and add the relevant images etc. for a specific project then begin editing in a codespace. This fork can be added as a subtree to a repo containing that project later, if desired. 
+
+Why? It is convenient to keep this separate from the project's source directory at first if that source contains its own devcontainer. If you try to open that repo in a codespace that source devcontainer will be used. This way, you can use the devcontainer for latex-jam in its own codespace to write online easily; it can be added to the source project later once this capability is no longer needed.
 
 ### Templates
 
