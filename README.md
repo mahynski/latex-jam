@@ -12,13 +12,13 @@ This is designed to work on [GitHub codespaces](https://github.com/features/code
 2. Launch web editor (if online, press "." key)
 3. Select "Create New Codespace..." 
 
-### As a Submodule
+### As a Subtree
 
-This code is intentionally lightweight so it is highly portable. It is easy to add this repo as a submodule to another project then use it to write .tex documents inside of.
+This code is intentionally lightweight so it is highly portable. It is easy to add this repo as a subtree to another project then use it to write .tex documents inside of.
 
 ~~~bash
 $ cd path/to/other/repo
-$ git submodule add ssh://...
+$ git subtree add --prefix ./ https://github.com/mahynski/latex-jam.git main --squash
 $ git commit -m "added latex-jam"
 $ cd latex-jam; git remote rm origin # Disconnect local copy from parent as best practice
 ~~~
